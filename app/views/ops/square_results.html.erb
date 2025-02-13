@@ -1,0 +1,21 @@
+<h1><%= @result_name %> Results</h1>
+
+<div>
+  <p>
+    Number  
+  </p>
+  <p>
+    <%= @inputs.fetch("number") %>
+  </p>
+
+  <p>
+    <%= @result_name.capitalize %>
+  </p>
+
+  <p>
+    <%= @result %>
+  </p>
+
+</div>
+
+<a href="/square/results">Calculate another square</a>
